@@ -48,13 +48,16 @@ hr {
 .fore-header {
     width: 24px;
     border-top: 4px dashed white;
-    margin-right: 8px;
 }
 
 .fill-header {
     border-top: 4px dashed white;
     flex-grow: 1;
+}
+
+.text-margins {
     margin-left: 8px;
+    margin-right: 8px;
 }
 
 .centered-text {
