@@ -1,0 +1,68 @@
+@font-face {
+    font-family: jb;
+    src: url(JetBrainsMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: jb-bold;
+    src: url(JetBrainsMono-ExtraBold.ttf);
+}
+
+body {
+    font-family: jb;
+    color: white;
+    background-color: black;
+
+    width: 100%;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.reading-area {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 30vmax;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border-top: 4px dashed white;
+    border-bottom: 0;
+
+    margin-bottom: 32px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fore-header {
+    width: 24px;
+    border-top: 4px dashed white;
+    margin-right: 8px;
+}
+
+.fill-header {
+    border-top: 4px dashed white;
+    flex-grow: 1;
+    margin-left: 8px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+a {
+    font-family: jb-bold;
+    color: white;
+    text-decoration: none;
+}
